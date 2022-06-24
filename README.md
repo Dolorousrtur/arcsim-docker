@@ -21,7 +21,7 @@ git clone arcsim-docker
 cd arcsim-docker
 ```
 
-2. Download ARCSim 0.3.1 from the official webpage und unpack it to this repository's directory. 
+2. Download ARCSim 0.3.1 from the [official webpage](http://graphics.berkeley.edu/resources/ARCSim/arcsim-0.3.1.tar.gz) and unpack it to this repository's directory. 
 Its contents should look like this:
 ```
 arcsim-docker/
@@ -79,6 +79,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
 
 Solution:
 ```bash
+# replace with SConstruct from this repo
 mv Sconstruct arcsim-0.3.1/dependencies/jsoncpp/SConstruct
 ```
 ### 2. prebuilt darwin version of taucs
@@ -121,9 +122,9 @@ sed -i 's/<< file/<< std::endl/' arcsim-0.3.1/src/sparse.hpp
 ```
 
 ### 4. `clamp` ambiguity
-++ raises an error due to ambiguity between `clamp` defined in `arcsim-0.3.1/src/util.hpp` 
+this error raises due to ambiguity between `clamp` defined in `arcsim-0.3.1/src/util.hpp` 
 and `std::clamp` because of `using namespace std;` in multiple source files. 
-So I just renames this function to `my_clamp`
+So I just renamed this function to `my_clamp`
 
 
 Error message:
