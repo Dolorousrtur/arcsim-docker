@@ -58,7 +58,8 @@ You don't need this section if you followed installation instructions above.
 
 Though I decided to describe the errors during ARCSim installation process on Ubuntu and ways to fix them for the sake of completeness.
 
-These instructions were tested for Ubuntu 22.04 and 21.10. For more complete list of workarounds for other Ubuntu versions and earlier ARCSim versions you can refer to this repo.
+These instructions were tested for Ubuntu 22.04 and 21.10. For more complete list of workarounds 
+for other Ubuntu versions and earlier ARCSim versions you can refer to [this repo](https://github.com/DanielTakeshi/ARCSim-Installation-Instructions).
 
 ### 1. scons and python3 problem
 `scons` package for modern Ubuntu versions goes with `python3`, so we need to change several lines in `SConstruct` to make it work with `python3
