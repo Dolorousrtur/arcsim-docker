@@ -4,13 +4,13 @@ This repo contains a Dockerfile and installation instructions for ARCSim 0.3.1 o
 
 ## Docker image
 
-You can build a docker image from the Dockerfile yourself following instructions below or you can pull the full image from dockerhub:
+You can build a docker image from the Dockerfile yourself following instructions below or you can pull the full image from [dockerhub](https://hub.docker.com/r/ladekabovino/arcsim-ubuntu):
 ```bash
 docker pull ladekabovino/arcsim-ubuntu
 ```
 
 ## Installation and usage
-ARCSim requires some tweaks to be installed properly on Ubuntu. These tweaks are already included to the Dockerfile, so you may not worry about them. 
+ARCSim requires some tweaks to be installed properly on Ubuntu. These tweaks are already included to the [Dockerfile](Dockerfile), so you may not worry about them. 
 Though I describe errors and workarounds I used further in this README.
 
 You can also use these workarounds (see Dockerfile:L24) to install ARCSim to your OS without docker, though they were only tested for Ubuntu 22.04 and 21.10.
