@@ -13,7 +13,7 @@ docker pull ladekabovino/arcsim-ubuntu
 ARCSim requires some tweaks to be installed properly on Ubuntu. These tweaks are already included to the [Dockerfile](Dockerfile), so you may not worry about them. 
 Though I describe errors and workarounds I used further in this README.
 
-You can also use these workarounds (see [Dockerfile:L24](Dockerfile:L24)) to install ARCSim to your OS without docker, though they were only tested for Ubuntu 22.04 and 21.10.
+You can also use these workarounds (see [Dockerfile:L24](Dockerfile)) to install ARCSim to your OS without docker, though they were only tested for Ubuntu 22.04 and 21.10.
 
 1. Clone this repository
 ```bash
